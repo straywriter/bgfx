@@ -1,0 +1,4 @@
+#include "@RenderDir@/Src/Render/shader.cpp"
+#include "@RenderDir@/Src/Render/shader_dx9bc.cpp"
+#include "@RenderDir@/Src/Render/shader_dxbc.cpp"
+#include "@RenderDir@/Src/Render/shader_spirv.cpp"

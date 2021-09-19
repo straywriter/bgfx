@@ -1,0 +1,5 @@
+if( NOT BGFX_DIR )
+	set( BGFX_DIR "${CMAKE_CURRENT_SOURCE_DIR}" CACHE STRING "Location of bgfx." )
+elseif( NOT IS_ABSOLUTE "${BGFX_DIR}")
+	get_filename_component(BGFX_DIR "${BGFX_DIR}" REALPATH BASE_DIR "${CMAKE_CURRENT_SOURCE_DIR}")
+endif()
